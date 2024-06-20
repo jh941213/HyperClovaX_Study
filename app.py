@@ -4,9 +4,9 @@ import base64
 
 llm = LlmClovaStudio(
     host='https://clovastudio.stream.ntruss.com/',
-    api_key='NTA0MjU2MWZlZTcxNDJiY6yyY6Iahpvy/4bDhr2mfucbZv7a0mH3ZmXd45WiAT5+',
-    api_key_primary_val='J300G5CdzwUakQQHTMBDjs7GP7buywJcqSOLGP47',
-    request_id='bc5346c1-1ba7-41cb-921a-fdc0e3d64530'
+    api_key='your api key',
+    api_key_primary_val='your api key',
+    request_id='your request id'
 )
 
 # Page configuration
@@ -26,8 +26,8 @@ def load_image(image_path):
         encoded_string = base64.b64encode(image_file.read()).decode()
     return encoded_string
 
-user_avatar_base64 = load_image("../streamlit/image/kdb.png")
-assistant_avatar_base64 = load_image("../streamlit/image/luffy.png")
+user_avatar_base64 = load_image("user.png")
+assistant_avatar_base64 = load_image("luffy.png")
 
 chat_container = st.container()
 with chat_container:
