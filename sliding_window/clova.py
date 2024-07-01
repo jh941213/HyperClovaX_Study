@@ -63,7 +63,7 @@ class LlmClovaStudio(LLM):
         }
 
         response = requests.post(
-            self.host + "/testapp/v1/tasks/x56zk6qy/chat-completions",  # 본인 튜닝 API 경로 사용도 가능 test App 에서
+            self.host + "your url",  # 본인 튜닝 API 경로 사용도 가능 test App 에서
             headers=headers,
             json=request_data,
             stream=True
