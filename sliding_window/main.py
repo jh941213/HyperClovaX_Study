@@ -27,16 +27,16 @@ def main():
 
     sliding_window_executor = SlidingWindowExecutor(
         host='https://clovastudio.stream.ntruss.com/',
-        api_key='NTA0MjU2MWZlZTcxNDJiY6yyY6Iahpvy/4bDhr2mfucbZv7a0mH3ZmXd45WiAT5+',
-        api_key_primary_val='J300G5CdzwUakQQHTMBDjs7GP7buywJcqSOLGP47',
-        request_id='bc5346c1-1ba7-41cb-921a-fdc0e3d64530'
+        api_key='your id',
+        api_key_primary_val='your id',
+        request_id='request_id'
     )
 
     clova_studio_llm = LlmClovaStudio(
         host='https://clovastudio.stream.ntruss.com/',
-        api_key='NTA0MjU2MWZlZTcxNDJiY6yyY6Iahpvy/4bDhr2mfucbZv7a0mH3ZmXd45WiAT5+',
-        api_key_primary_val='J300G5CdzwUakQQHTMBDjs7GP7buywJcqSOLGP47',
-        request_id='bc5346c1-1ba7-41cb-921a-fdc0e3d64530'
+        api_key='your id',
+        api_key_primary_val='your id',
+        request_id='request_id'
     )
 
     while True:
